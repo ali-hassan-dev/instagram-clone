@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="btn btn-primary btn-sm" @click="followUser" v-text="buttonText" style="margin-left: 25px;"></button>
+        <button class="btn btn-primary btn-sm" @click="followUser" v-text="buttonText"></button>
         <!-- <div class="pr-5" style="padding-right: 30px; margin-left: 25px;"><strong>{{ followersCount }}</strong> Followers</div> -->
     </div>
 </template>

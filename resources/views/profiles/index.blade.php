@@ -7,9 +7,9 @@
                 <img src="{{ $user->profile->profileImage() }}" class="rounded-circle w-100" alt="">
             </div>
             <div class="col-9 pt-5">
-                <div class="d-flex justify-content-between align-items-baseline">
-                    <div class="d-flex align-items-center pb-2">
-                        <div class="h4">{{$user->username}}</div>
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex align-items-center pb-2 gap-4">
+                        <div class="fw-bold fs-4">{{$user->username}}</div>
                         @auth
                             @unless( auth()->id() == $user->id )
                                 <follow-button user_id="{{$user->id}}" follow_status="{{ $followStatus }}" />
