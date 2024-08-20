@@ -33,5 +33,5 @@ This repository is an Instagram clone project built using Laravel and Vue.js. It
 * / --> home page/landing page, showcasing all posts from users you follow
 * /post/create --> shows the form to create a new post
 * /post/:id --> shows a single post of a user
-* /profile/:id --> shows profile of a user, displaying their posts and profile details
-* /profile/:id/edit --> shows form to edit and update your profile
+* /profile/:id --> shows the profile of a user, displaying their posts and profile details
+* /profile/:id/edit --> shows the form to edit and update your profile
